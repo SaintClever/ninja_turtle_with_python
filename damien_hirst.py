@@ -7,7 +7,7 @@ colors = colorgram.extract('assets/damien_hirst.jpg', 17)
 
 tuple_colors = [(color.rgb.r, color.rgb.g, color.rgb.b) for color in colors]
 # tuple_colors = [(color.rgb[0], color.rgb[1], color.rgb[2]) for color in colors]
-print(tuple_colors[3:]) # remove the first 3 tuples because colors are too light
+# print(tuple_colors[3:]) # remove the first 3 tuples because colors are too light
 colors = tuple_colors[3:]
 
 turtle.colormode(255)
@@ -19,16 +19,18 @@ tim.penup()
 x = -330
 y = -300
 
-user_input = int(input('What dot size do you want [1 - 100]: '))
+user_input = int(input('Desired dot size [1 - 100]: '))
 
 while y <= 300:
   tim.goto(x, y)
+  count = 0
   for color in colors:
     random_color = choice(colors)
+    # print(random_color)
     x = -330
-    tim.dot(100, random_color)
+    tim.dot(user_input, random_color)
     tim.forward(50)
-  print(x, y)
+  # print(x, y)
   y += 50
 
 screen = Screen()

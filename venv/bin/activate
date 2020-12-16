@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/anonymous/Desktop/python_projects/ninja_turtle_with_python/venv"
+VIRTUAL_ENV="/Users/anonymous/Desktop/python_projects/ninja_turtling_with_python/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
