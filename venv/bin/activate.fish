@@ -29,7 +29,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/anonymous/Desktop/python_projects/python_turtle/venv"
+set -gx VIRTUAL_ENV "/Users/anonymous/Desktop/python_projects/ninja_turtle_with_python/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
