@@ -18,4 +18,4 @@ Desired dot size [1 - 100]:
 
 ![damien_hirst](assets/damien_hirst_00.gif)
 
-![damien_hirst](assets/damien_hirst_03.gif)
+![damien_hirst](assets/damien_hirst_01.gif)
