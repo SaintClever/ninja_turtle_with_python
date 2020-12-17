@@ -9,7 +9,7 @@ python3 spirograph.py
 
 ![spirograh](assets/spirograh_00.gif)
 
-![spirograh](assets/spirograh_01.gif)
+![spirograh](assets/spirograh_01.gif
 
 
 ## In terminal...
