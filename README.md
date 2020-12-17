@@ -7,9 +7,9 @@ python3 spirograph.py
 - Circle size [1 to 500]:
 - Pen size [1 to 100]:
 
-![spirograh](assets/spirograh_00.gif)
+![spirograh](assets/spirograph_00.gif)
 
-![spirograh](assets/spirograh_01.gif)
+![spirograh](assets/spirograph_01.gif)
 
 
 ## In terminal...
