@@ -1,6 +1,6 @@
 from random import randint
 from turtle import Screen
-import turtle, Screen
+import turtle
 
 
 tim = turtle.Turtle()
